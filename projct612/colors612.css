@@ -1,0 +1,74 @@
+/* ملف الألوان - الهوية البصرية */
+:root {
+    /* الألوان الأساسية حسب المواصفات */
+    --color-primary: #006D77; /* الأزرق البترولي العميق */
+    --color-primary-light: #83C5BE;
+    --color-primary-dark: #00565E;
+    
+    --color-background: #F8F9FA; /* الرمادي اللؤلؤي الناعم */
+    --color-surface: #FFFFFF;
+    --color-surface-dark: #EDF2F4;
+    
+    --color-text: #2B2D42; /* داكن للنصوص */
+    --color-text-light: #8D99AE;
+    --color-text-muted: #ADB5BD;
+    
+    /* الألوان التكميلية */
+    --color-secondary: #E29578;
+    --color-secondary-light: #FFDDD2;
+    --color-secondary-dark: #CD7A5F;
+    
+    --color-accent: #FF9E6D;
+    --color-success: #06D6A0;
+    --color-warning: #FFD166;
+    --color-danger: #EF476F;
+    --color-info: #118AB2;
+    
+    /* الظلال */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.15);
+    
+    /* الزوايا */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-round: 50%;
+    
+    /* التباعد */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-xxl: 5rem;
+    
+    /* الخطوط */
+    --font-family: 'Cairo', sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 2rem;
+    --font-size-4xl: 2.5rem;
+    --font-size-5xl: 3rem;
+}
+.infinity-symbol {
+    background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+/* تدرج للرمز ∞ */
+.gradient {
+    background: linear-gradient(45deg, var(--color-primary), var(--color-secondary), var(--color-accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
