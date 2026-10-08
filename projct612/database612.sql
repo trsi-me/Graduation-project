@@ -131,9 +131,9 @@ CREATE TABLE IF NOT EXISTS ratings (
 
 -- بيانات تجريبية (كلمة المرور لجميع الحسابات أدناه: demo12345)
 INSERT INTO users (full_name, phone, email, password_hash, user_type, rating, rank) VALUES
-('أحمد المستفيد', '0500000001', 'senior1@test.local', '$2y$10$l3xazMyankA/kDSP0UGeiOd5711JX/5YyYsRism.ObEDke.ixSedm', 'senior', 0, 'refiq_ahd'),
-('فاطمة المتطوعة', '0500000002', 'volunteer1@test.local', '$2y$10$l3xazMyankA/kDSP0UGeiOd5711JX/5YyYsRism.ObEDke.ixSedm', 'volunteer', 4.5, 'haris_wudd'),
-('خالد المتطوع', '0500000003', 'volunteer2@test.local', '$2y$10$l3xazMyankA/kDSP0UGeiOd5711JX/5YyYsRism.ObEDke.ixSedm', 'volunteer', 4.0, 'refiq_ahd')
+('أحمد المستفيد', '0500000001', 'senior1@test.local', '', 'senior', 0, 'refiq_ahd'),
+('فاطمة المتطوعة', '0500000002', 'volunteer1@test.local', '', 'volunteer', 4.5, 'haris_wudd'),
+('خالد المتطوع', '0500000003', 'volunteer2@test.local', '', 'volunteer', 4.0, 'refiq_ahd')
 ON DUPLICATE KEY UPDATE full_name = VALUES(full_name);
 
 -- =============================================================================
